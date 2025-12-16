@@ -41,11 +41,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC        &kp N1  &kp N2    &kp N3            &kp N4     &kp N5                                 &kp N6         &kp N7         &kp N8             &kp N9   &kp N0    &kp EQUAL
-&kp TAB        &kp Q   &kp W     &kp E             &kp R      &kp T                                  &kp Y          &kp U          &kp I              &kp O    &kp P     &kp MINUS
-&kp CAPS       &kp A   &kp S     &kp D             &kp F      &kp G                                  &kp H          &kp J          &kp K              &kp L    &kp SEMI  &kp SQT
-&kp BACKSLASH  &kp Z   &kp X     &kp C             &kp V      &kp B      &tog 3     &rgb_ug RGB_EFF  &kp N          &kp M          &kp COMMA          &kp DOT  &kp FSLH  &kp GRAVE
-                       &kp LGUI  &kp LEFT_BRACKET  &kp LCTRL  &kp SPACE  &kp RET    &kp RIGHT_SHIFT  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_BRACKET  &kp DEL
+&kp ESC        &kp N1  &kp N2    &kp N3            &kp N4     &kp N5                                         &kp N6         &kp N7         &kp N8             &kp N9   &kp N0    &kp EQUAL
+&kp TAB        &kp Q   &kp W     &kp E             &kp R      &kp T                                          &kp Y          &kp U          &kp I              &kp O    &kp P     &kp MINUS
+&kp CAPS       &kp A   &kp S     &kp D             &kp F      &kp G                                          &kp H          &kp J          &kp K              &kp L    &kp SEMI  &kp SQT
+&kp BACKSLASH  &kp Z   &kp X     &kp C             &kp V      &kp B      &kp PRINTSCREEN    &rgb_ug RGB_EFF  &kp N          &kp M          &kp COMMA          &kp DOT  &kp FSLH  &kp GRAVE
+                       &kp LGUI  &kp LEFT_BRACKET  &kp LCTRL  &kp SPACE  &kp RET            &kp RIGHT_SHIFT  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_BRACKET  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
